@@ -11,7 +11,20 @@ body {
     padding: 1em;
     text-align: center;
   }
-  
+
+  .logo {
+    width: 100px;
+    border: 2px solid #333; /* Add a border around the image */
+    border-radius: 50%; /* Create a circular image */
+    padding: 10px;
+    background-color: #f5f5f5; /* Add a background color */
+    transition: transform 0.2s ease; /* Add a hover effect */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
   #nav-bar ul {
     list-style-type: none;
     padding: 0;
@@ -88,4 +101,4 @@ body {
   footer ul li a {
     color: white;
     text-decoration: none;
-  }  
+  }
